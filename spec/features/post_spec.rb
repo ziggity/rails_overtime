@@ -3,9 +3,10 @@ require 'rails_helper'
 RSpec.describe Post, type: :model do
   describe "Creation" do
   	before do
-  		@post = FactoryGirl.create(:post)
-  	end
-
+  		user = User.create(email: 'test@test.com', password 'asdfasdf', password_confirmation: 'asdfasdf', first_name: 'Zach', last_name: 'Beecher')
+			visit new_post_path
+		end
+	end
   	it 'can be created' do	
   		expect(@post).to be_valid
   	end
