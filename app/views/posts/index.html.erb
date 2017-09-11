@@ -4,20 +4,22 @@
 	<thead>
 		<tr>
 			<th>
-				#
+				Hours
 			</th>
 			<th>
 				Date
 			</th>
-			<th>
-				User
+			<th class='hidden-xs'>
+				Work Performed
 			</th>
 			<th>
-				Rationale
+				Status
 			</th>
+			<th></th>
+			<th></th>
 		</tr>
 	</thead>
-	<tbody>
-    <%= render @posts %>
+	<tbody id="posts">
+		<%= render @posts %>
 	</tbody>
-</table> 
+</table>
