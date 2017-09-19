@@ -38,8 +38,8 @@ Allows employees to enter their hours worked, admins can edit, stores values in 
 
 ``
  rails db:create db:migrate db:seed
-
 ``
+
 * Start the webserver:
 
 ``
@@ -54,6 +54,7 @@ Navigate to `localhost:3000`
 Get & post:
 http://localhost:3000/posts/new
 ``
+
 ``
 Get by ID:
 http://localhost:3000/posts/1
