@@ -1,7 +1,75 @@
-# Overtime App
+# README
 
-## Key requirement: company needs documentation that salaried employees did or did not get overtime each week
+# Project details:
+Overtime app
 
-### This project is explained in the [Professional Ruby on Rails Coding Course](https://www.udemy.com/professional-ruby-on-rails-coding-course/)
+Allows employees to enter their hours worked, admins can edit, stores values in databse (postgres)
 
-For more tutorial please visit [devCamp](https://devcamp.com)
+
+# Planning:
+
+[] Schema setup
+[] bootstrap
+
+
+## Installation
+------------
+
+
+ * git clone https://github.com/ziggity/rails_overtime
+
+ ``
+ cd rails_overtime
+``
+
+* You must install gems:
+
+``
+ bundle install
+``
+
+* Start postgres in another terminal tab (Cmd + T):
+
+``
+ postgres
+``
+
+* Create databases:
+
+``
+ rails db:create db:migrate db:seed
+
+``
+* Start the webserver:
+
+``
+ rails s
+``
+
+Navigate to `localhost:3000`
+
+# routes:
+
+``
+Get & post:
+http://localhost:3000/posts/new
+``
+``
+Get by ID:
+http://localhost:3000/posts/1
+``
+
+
+
+## Known Bugs
+none
+
+## Technologies Used
+
+Ruby on Rails, bootstrap, twilio api, 
+
+### License
+
+MIT
+
+Copyright (c) 2017 **Zach Beecher**
